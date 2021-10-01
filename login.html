@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elzaar Shopping | Login</title>
+    <!--css style-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
+
+    <!--font google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet"> 
+
+</head>
+<body>
+    <header>
+        <div class="container">
+           <div class="header-content">
+                <div class="logo">
+                    <a href="index.html" class="brand">ELZAAR SHOPPING</a>
+                </div>
+                <nav>
+                    <ul id="links">
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="register.html">Register</a></li>
+                    </ul>
+                </nav>
+           </div>
+        </div>
+    </header>
+    <div class="error" id="error"></div>
+    <div class="valide" id="valide"></div>
+    <section class="section-form">
+        <h2>Login User : </h2>
+        <form>
+            <input type="text" placeholder="Enter Username" id="username">
+            <input type="password" placeholder="Enter Password" id="password">
+            <input type="submit" value="Login" id="signin">
+        </form>
+        <a href="register.html" class="linksignup">If You not register signUp here .</a>
+    </section>
+
+    <script src="js/login.js"></script>
+</body>
+</html>

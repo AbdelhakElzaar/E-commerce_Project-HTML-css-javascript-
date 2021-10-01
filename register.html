@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elzaar Shopping | Register</title>
+    <!--css style-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/register.css">
+
+    <!--font google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet"> 
+
+</head>
+<body>
+    <header>
+        <div class="container">
+           <div class="header-content">
+                <div class="logo">
+                    <a href="index.html" class="brand">ELZAAR SHOPPING</a>
+                </div>
+                <nav>
+                    <ul id="links">
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="register.html">Register</a></li>
+                    </ul>
+                </nav>
+           </div>
+        </div>
+    </header>
+    <div class="error" id="error"></div>
+    <div class="valide" id="valide"></div>
+    <section class="section-form">
+        <h2>SignUp User : </h2>
+        <form novalidate>
+            <input type="text" placeholder="Enter Username" id="username">
+            <input type="email" placeholder="example@mail.com" id="email">
+            <input type="password" placeholder="Enter Password" id="password">
+            <input type="password" placeholder="Replay Password" id="repassword">
+            <input type="submit" value="SignUp" id="signup">
+        </form>
+    </section>
+    <script src="js/userCheck.js"></script>
+    <script src="js/register.js"></script>
+</body>
+</html>

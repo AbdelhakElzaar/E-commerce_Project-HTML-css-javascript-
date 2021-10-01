@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elzaar Shopping Home Page</title>
+    <!--css style-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--font google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet"> 
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="container">
+           <div class="header-content">
+                <div class="logo">
+                    <a href="index.html" class="brand">ELZAAR SHOPPING</a>
+                </div>
+                <nav>
+                    <ul id="links">
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="register.html">Register</a></li>
+                    </ul>
+                    <ul id="user-info">
+                        <li class="userLi"><a href="" id="user"></a>
+                            <ul class="dropdown">
+                                <li><a href="#">My Account</a></li>
+                                <li><a href="" id="logout">LogOut</a></li>
+                            </ul>
+                        </li>
+                        <li class="liShooping">
+                            <i class="shopping-icon fas fa-shopping-cart"></i>
+                            <span class="badge"></span>
+
+                            <ul class="productnotif">
+                                <div></div>
+                                <a href="cartproduct.html">view All Products</a>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+           </div>
+        </div>
+    </header>
+    <div class="error" id="error"></div>
+    <div class="valide" id="valide"></div>
+    <section class="home">
+        <div class="container">
+            <div class="products" id="product-id">
+                
+            </div>
+        </div>
+    </section>
+
+    <script src="js/userCheck.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
